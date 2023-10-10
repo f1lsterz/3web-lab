@@ -188,6 +188,7 @@ img {
   }
 
   .part-6 {
+    padding: 0 20px;
     grid-row: 28 / -1;
   }
 
@@ -207,6 +208,23 @@ img {
   .part-2 ul li a {
     padding: 5px 10px;
     border-radius: 10px;
+  }
+}
+
+@media (max-width: 140px) {
+  .part-2 ul li a {
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-size: 5px;
+  }
+
+  .part-6 {
+   padding: 0;
+  }
+
+  .part-5 blockquote {
+    margin-inline-start: 20px;
+    font-size: 6px;
   }
 }
 
